@@ -83,7 +83,7 @@ export default function AppSidebar({ ...props }: React.ComponentProps<typeof Sid
                             </SidebarMenuItem>
                             <SidebarMenuItem>
                                 <SidebarMenuButton asChild>
-                                    <Link to="/reset-password"><FileText /> Reset Password</Link>
+                                    <Link to="/password-reset"><FileText /> Reset Password</Link>
                                 </SidebarMenuButton>
                             </SidebarMenuItem>
                         </SidebarMenu>

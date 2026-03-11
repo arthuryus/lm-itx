@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-export default function Login() {
+export default function LoginPage() {
     return (
         <div className="flex min-h-screen items-center justify-center bg-background p-4">
             <Card className="w-full max-w-md">
@@ -27,7 +27,7 @@ export default function Login() {
                     <div className="space-y-2">
                         <div className="flex items-center">
                             <Label htmlFor="password">Пароль</Label>
-                            <Link to="/reset-password" className="ml-auto text-sm underline-offset-4 hover:underline">Забыл пароль?</Link>
+                            <Link to="/password-reset" className="ml-auto text-sm underline-offset-4 hover:underline">Забыл пароль?</Link>
                         </div>
                         <Input
                             id="password"

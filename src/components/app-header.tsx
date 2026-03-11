@@ -1,5 +1,5 @@
-import { SidebarTrigger } from "@/components/ui/sidebar.tsx"
-import { Separator } from "@/components/ui/separator.tsx"
+import { SidebarTrigger } from "@/components/ui/sidebar"
+import { Separator } from "@/components/ui/separator"
 
 export default function AppHeader() {
     return (

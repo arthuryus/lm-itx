@@ -1,4 +1,4 @@
-export default function Documents() {
+export default function DocumentsPage() {
     return (
         <div className="space-y-6">
             <div>

@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import {Link} from "react-router-dom";
 
-export default function ResetPassword() {
+export default function PasswordResetPage() {
     return (
         <div className="flex min-h-screen items-center justify-center bg-background p-4">
             <Card className="w-full max-w-md">
